@@ -1,1 +1,1 @@
-"# StockManager" 
+Stock Manager
