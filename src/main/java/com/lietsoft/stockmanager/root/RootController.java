@@ -10,9 +10,7 @@ public class RootController {
     @RequestMapping("/")
     @ResponseBody
     public String home() {
-        StringBuilder sb = new StringBuilder("Welcome to StockManager!");
-        sb.append("Access to your product <a href=\"/product\">catalog</a>");
-        return sb.toString();
+        return "Welcome to StockManager!" + "Access to your product <a href=\"/product\">catalog</a>";
     }
 
 }
