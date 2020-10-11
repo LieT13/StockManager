@@ -1,7 +1,7 @@
-package com.lietsoft.stockmanager.products.controller;
+package com.lietsoft.stockmanager.product.controller;
 
-import com.lietsoft.stockmanager.products.model.Product;
-import com.lietsoft.stockmanager.products.service.ProductService;
+import com.lietsoft.stockmanager.product.model.Product;
+import com.lietsoft.stockmanager.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(value = "/product")
-public class ProductsController {
+public class ProductController {
 
     @Autowired
     private ProductService productsService;
