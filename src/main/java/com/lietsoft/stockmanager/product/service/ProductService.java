@@ -1,7 +1,7 @@
-package com.lietsoft.stockmanager.products.service;
+package com.lietsoft.stockmanager.product.service;
 
-import com.lietsoft.stockmanager.products.model.Product;
-import com.lietsoft.stockmanager.products.repository.ProductRepository;
+import com.lietsoft.stockmanager.product.model.Product;
+import com.lietsoft.stockmanager.product.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

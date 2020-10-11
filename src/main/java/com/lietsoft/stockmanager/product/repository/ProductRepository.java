@@ -1,6 +1,6 @@
-package com.lietsoft.stockmanager.products.repository;
+package com.lietsoft.stockmanager.product.repository;
 
-import com.lietsoft.stockmanager.products.model.Product;
+import com.lietsoft.stockmanager.product.model.Product;
 
 import java.util.List;
 

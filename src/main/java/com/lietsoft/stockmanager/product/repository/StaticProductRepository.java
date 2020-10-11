@@ -1,6 +1,7 @@
-package com.lietsoft.stockmanager.products.repository;
+package com.lietsoft.stockmanager.product.repository;
 
-import com.lietsoft.stockmanager.products.model.Product;
+import com.lietsoft.stockmanager.product.model.Product;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Profile("local")
 @Repository
 public class StaticProductRepository implements ProductRepository {
 
