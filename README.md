@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/LieT13/StockManager/branch/develop/graph/badge.svg)](https://codecov.io/gh/LieT13/StockManager)
 
 # Stock Manager
 
