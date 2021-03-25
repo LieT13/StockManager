@@ -3,7 +3,7 @@
 
 ## Running the application
 
-```java
+```shell
 java -Dspring.profiles.active=<profile> -jar target/stockmanager-<version>.jar
 ```
 
