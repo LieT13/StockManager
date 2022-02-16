@@ -13,7 +13,7 @@ import java.util.Map;
 @Repository
 public class StaticProductRepository implements ProductRepository {
 
-    private Map<String, Product> products = new HashMap<>();
+    private final Map<String, Product> products = new HashMap<>();
 
     public StaticProductRepository() {
         this.products.put("1000000001", new Product("1000000001", "Boligrafo BIC Azul", 10));
