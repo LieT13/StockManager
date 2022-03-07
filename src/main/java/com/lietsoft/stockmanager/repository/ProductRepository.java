@@ -1,8 +1,8 @@
-package com.lietsoft.stockmanager.product.repository;
-
-import com.lietsoft.stockmanager.product.model.Product;
+package com.lietsoft.stockmanager.repository;
 
 import java.util.List;
+
+import com.lietsoft.stockmanager.domain.Product;
 
 public interface ProductRepository {
 

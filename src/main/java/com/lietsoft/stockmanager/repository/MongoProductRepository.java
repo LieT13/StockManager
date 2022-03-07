@@ -1,11 +1,12 @@
-package com.lietsoft.stockmanager.product.repository;
+package com.lietsoft.stockmanager.repository;
 
-import com.lietsoft.stockmanager.product.model.Product;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
+import com.lietsoft.stockmanager.domain.Product;
 
 @Primary
 @Profile("prod")
