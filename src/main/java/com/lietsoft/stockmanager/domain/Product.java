@@ -1,4 +1,4 @@
-package com.lietsoft.stockmanager.products.model;
+package com.lietsoft.stockmanager.domain;
 
 public class Product {
 
