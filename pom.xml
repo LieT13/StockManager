@@ -11,7 +11,7 @@
 
 	<groupId>com.lietsoft</groupId>
 	<artifactId>stockmanager</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<name>stockmanager</name>
 	<description>Stock manager</description>
 
